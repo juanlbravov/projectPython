@@ -1,13 +1,20 @@
-…or push an existing repository from the command line
+# clonarnos el repositorio
+cd /c/Workspace/Github/
+git clone https://github.com/juanlbravov/projectPython.git
+git log 
+ls -la
+
+# creamos el repositorio
 git init
+git remote -v
 git remote add origin git@github.com:juanlbravov/projectPython.git
+git branch -all
 
 # push
 git add .
-git commit -m "XXXXX"
+git commit -m "
 git branch -M main
 git push -u origin main
 
 # pull
-git branch -M main
-git push -u origin main
+git pull origin main
