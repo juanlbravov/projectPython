@@ -3,7 +3,6 @@ Hacen referencia a condiciones entre 2 datos
 pueden ser vistos como comparadores
 
 1. Operadores RELACIONALES
-
 OPERADOR | DESCRIPCION       | EJEMPLO
 ==       | Igual que..       | 68==69  ==>> FALSE
 !=       | Diferente de..    | 68!=68  ==>> TRUE
@@ -32,3 +31,5 @@ TRUE  or  FALSE | TRUE
 FALSE or  TRUE  | TRUE
 FALSE or  FALSE | FALSE
 
+3. IF ELSE
+   ELIF
