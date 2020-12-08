@@ -1,0 +1,34 @@
+CONDICIONALES:
+Hacen referencia a condiciones entre 2 datos
+pueden ser vistos como comparadores
+
+1. Operadores RELACIONALES
+
+OPERADOR | DESCRIPCION       | EJEMPLO
+==       | Igual que..       | 68==69  ==>> FALSE
+!=       | Diferente de..    | 68!=68  ==>> TRUE
+<        | Menor que..       | 68<69   ==>> TRUE
+>        | Mayor que..       | 68>69   ==>> FALSE
+<=       | Menor o Igual a.. | 68<=69  ==>> TRUE
+>=       | Mayor o Igual a.. | 68>=69  ==>> FALSE
+
+2. Operadores LÓGICOS
+OPERADOR | DESCRIPCION       | EJEMPLO
+and      |     y             | (19>1) and (70<=70) ==>> TRUE 
+or       |     ó             | (50>=80) or (6==6)  ==>> TRUE
+not      |    No             | 4>3 ==>> TRUE       ==>> FALSE
+
+2.1 AND
+COMPARACION     | RESULTADO
+TRUE  and TRUE  | TRUE
+TRUE  and FALSE | FALSE
+FALSE and TRUE  | FALSE
+FALSE and FALSE | FALSE
+
+2.2. OR
+COMPARACION     | RESULTADO
+TRUE  or  TRUE  | TRUE
+TRUE  or  FALSE | TRUE
+FALSE or  TRUE  | TRUE
+FALSE or  FALSE | FALSE
+
