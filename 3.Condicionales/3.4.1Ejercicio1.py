@@ -9,6 +9,9 @@ palabra2 = input("Palabra2 = ")
 
 if len(palabra1)<3 or len(palabra2)<3:
     print("Las palabras definidas deben tener mínimo 3 caracteres")
+elif palabra1[-3:] == palabra2[-3:]:
+    print("Las palabras riman")
+elif palabra1[-2:] == palabra2[-2:]:
+    print("Las palabras riman algo")
 else:
-    print("aqui voy")
-
+    print("Las palabras NO riman")
